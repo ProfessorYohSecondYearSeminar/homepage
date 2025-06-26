@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   basePath: isGitHubPages ? `/${repoName}` : '',
   assetPrefix: isGitHubPages ? `/${repoName}/` : '',
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
