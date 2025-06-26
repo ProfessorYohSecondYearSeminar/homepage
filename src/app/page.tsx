@@ -5,7 +5,7 @@ export default function Home() {
       style={{ backgroundColor: "#24377C" }}
     >
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-white text-2xl font-bold">Welcome to My Site</h1>
+        <h1 className="text-white text-2xl font-bold">Welcome to Our Yoh Second Year Seminar's Site</h1>
       </main>
     </div>
   );
