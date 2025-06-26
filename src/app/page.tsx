@@ -8,7 +8,7 @@ export default function Home() {
     >
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
       <Image
-        src="/160531091017_1.jpg"
+        src="/160531091017_1.svg"
         alt="TAKASHIMAMAINIMAGE"
         width={300}
         height={200}
