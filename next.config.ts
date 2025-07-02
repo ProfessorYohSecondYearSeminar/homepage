@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  publicRuntimeConfig: {
+    basePath: isGitHubPages ? `/${repoName}` : '',
+  },
 };
-
-export default nextConfig;
